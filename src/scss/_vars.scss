@@ -1,0 +1,28 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --prim-font-family: "ITCAvant", sans-serif;
+  --second-font-family: "HeptaSlab", sans-serif;
+  --content-width: 1500px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --prim-color: #6670ee;
+
+  // line-heiht
+  --lh-150: 125%;
+  --lh-150: 150%;
+  --lh-150: 170%;
+
+  // font-size
+  --fsize-14: 12px;
+  --fsize-14: 14px;
+  --fsize-16: 16px;
+  --fsize-16: 18px;
+  --fsize-24: 24px;
+  --fsize-32: 32px;
+  --fsize-64: 64px;
+}
