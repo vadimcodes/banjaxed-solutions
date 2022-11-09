@@ -49,7 +49,14 @@ a {
 
 .btn-primary {}
 
-.btn-second {}
+.btn-second {
+  background-color: var(--light-color);
+  padding: 10px 25px;
+  color: var(--swatch-667);
+  border: 1px solid var(--swatch-667);
+  border-radius: var(--br-12);
+  font-weight: 600;
+}
 
 .list-reset {
   list-style: none;
@@ -110,3 +117,5 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.grid {}

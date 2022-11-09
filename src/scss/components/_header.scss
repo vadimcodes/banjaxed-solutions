@@ -1,0 +1,31 @@
+.header {
+
+  padding: 28px 0;
+  border: 1px solid var(--swatch-e0e);
+
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    max-width: 119px
+  }
+
+  &__nav {
+  }
+
+  &__contacts {
+    @include flex-v-center;
+  }
+
+  &__social {
+  }
+
+  &__contacts-btn {
+    height: 50px;
+  }
+}
+
