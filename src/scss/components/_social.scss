@@ -1,0 +1,34 @@
+.social {
+
+  @include flex-v-center;
+  margin-right: 12px;
+
+  &__item {
+    border: 1px solid var(--swatch-d1d);
+    border-radius: var(--br-12);
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  &__link {
+    @include flex;
+
+    & svg {
+      margin: 12px;
+    }
+  }
+
+  &__link--in {
+  }
+
+  &__link--fb {
+  }
+
+  &__link--yt {
+  }
+
+  &__link--inst {
+  }
+}
